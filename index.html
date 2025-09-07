@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sofia Martins - Fotógrafa</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Sofia Martins</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#about" class="nav-link">Sobre</a></li>
+                <li><a href="#gallery" class="nav-link">Galeria</a></li>
+                <li><a href="#contact" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Capturando Momentos<br><span class="accent">Únicos</span></h1>
+                <p class="hero-subtitle">Fotógrafa especializada em retratos, casamentos e momentos especiais que contam histórias através de cada imagem.</p>
+                <div class="hero-buttons">
+                    <a href="#gallery" class="btn-primary">Ver Portfólio</a>
+                    <a href="#contact" class="btn-secondary">Entre em Contato</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="/assets/Sofiatrabalhando.jpg" alt="Sofia Martins - Fotógrafa Profissional">
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Sobre Mim</h2>
+                    <p class="about-description">
+                        Sou Sofia Martins, fotógrafa profissional com mais de 8 anos de experiência capturando momentos únicos e emocionantes. Especializo-me em fotografia de casamentos, retratos e eventos especiais.
+                    </p>
+                    <p class="about-description">
+                        Minha paixão é contar histórias através das lentes, criando memórias que durarão para sempre. Cada sessão é única e personalizada para refletir a personalidade e estilo dos meus clientes.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>200+</h3>
+                            <p>Casamentos</p>
+                        </div>
+                        <div class="stat">
+                            <h3>500+</h3>
+                            <p>Sessões</p>
+                        </div>
+                        <div class="stat">
+                            <h3>8</h3>
+                            <p>Anos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="/assets/Sofiatrabalhando.jpg" alt="Sofia Martins trabalhando">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Meu Trabalho</h2>
+            <p class="section-subtitle">Uma seleção dos meus trabalhos mais recentes</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="wedding">
+                    <img src="/assets/casamento_Pordosol.jpg" alt="Casamento romântico ao pôr do sol">
+                    <div class="gallery-overlay">
+                        <h3>Casamento Romântico</h3>
+                        <p>Cerimônia ao pôr do sol</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="portrait">
+                    <img src="/assets/mulher_profissional.jpg" alt="Retrato feminino profissional">
+                    <div class="gallery-overlay">
+                        <h3>Retrato Profissional</h3>
+                        <p>Sessão corporativa</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="family">
+                    <img src="./public/familia_feliz.jpg" alt="Família feliz no parque">
+                    <div class="gallery-overlay">
+                        <h3>Ensaio Familiar</h3>
+                        <p>Momentos em família</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="wedding">
+                    <img src="./public/dança _casal.jpg" alt="Noivos dançando">
+                    <div class="gallery-overlay">
+                        <h3>Primeira Dança</h3>
+                        <p>Momento especial</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="portrait">
+                    <img src="./public/retrato_arte.jpg" alt="Retrato artístico">
+                    <div class="gallery-overlay">
+                        <h3>Retrato Artístico</h3>
+                        <p>Sessão criativa</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="event">
+                    <img src="./public/evento_corporativo.jpeg" alt="Evento corporativo">
+                    <div class="gallery-overlay">
+                        <h3>Evento Corporativo</h3>
+                        <p>Cobertura profissional</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="wedding">
+                    <img src="./public/casamento_decoração.jpeg" alt="Detalhes do casamento">
+                    <div class="gallery-overlay">
+                        <h3>Detalhes Únicos</h3>
+                        <p>Cada detalhe importa</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="portrait">
+                    <img src="./public/homem_foto.jpg" alt="Retrato masculino">
+                    <div class="gallery-overlay">
+                        <h3>Retrato Masculino</h3>
+                        <p>Personalidade única</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="family">
+                    <img src="./public/crinças_brincadeira.jpg" alt="Crianças brincando">
+                    <div class="gallery-overlay">
+                        <h3>Alegria Infantil</h3>
+                        <p>Momentos espontâneos</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="wedding">
+                    <img src="./public/momento_religioso.jpg" alt="Cerimônia religiosa">
+                    <div class="gallery-overlay">
+                        <h3>Cerimônia Sagrada</h3>
+                        <p>Momentos emocionantes</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="portrait">
+                    <img src="./public/casal_amor.jpg" alt="Retrato de casal">
+                    <div class="gallery-overlay">
+                        <h3>Ensaio de Casal</h3>
+                        <p>Amor verdadeiro</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="event">
+                    <img src="./public/festa_familia.jpg" alt="Festa de aniversário">
+                    <div class="gallery-overlay">
+                        <h3>Celebração</h3>
+                        <p>Momentos de alegria</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Vamos Trabalhar Juntos</h2>
+            <p class="section-subtitle">Entre em contato para agendar sua sessão</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>sofia@fotografa.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Telefone</h3>
+                            <p>(11) 99999-9999</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Localização</h3>
+                            <p>São Paulo, SP</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Seu Nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Seu Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Seu Telefone">
+                        </div>
+                        <div class="form-group">
+                            <select id="service" name="service" required>
+                                <option value="">Tipo de Serviço</option>
+                                <option value="wedding">Casamento</option>
+                                <option value="portrait">Retrato</option>
+                                <option value="family">Ensaio Familiar</option>
+                                <option value="event">Evento</option>
+                                <option value="other">Outro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Conte-me sobre seu projeto..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <a href="https://instagram.com/sofiamartinsfoto" target="_blank" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://facebook.com/sofiamartinsfotografia" target="_blank" class="social-link">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://wa.me/5511999999999" target="_blank" class="social-link whatsapp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="mailto:sofia@fotografa.com" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5511999999999?text=Olá! Gostaria de saber mais sobre seus serviços de fotografia." target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Sofia Martins Fotografia. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
